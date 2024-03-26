@@ -13,6 +13,7 @@ import ContactHead from "./ContactHead";
 import AboutCard from "./AboutCard";
 import ServicesCarousel from "./ServicesCarousel";
 import OurTeam from "./OurTeam";
+
 export {
   Navbar,
   Billing,
@@ -30,3 +31,4 @@ export {
   ContactHead,
   Hero,
 };
+
