@@ -11,6 +11,7 @@ import styles from "../style";
 import { data } from "../constants/index";
 import { imageData } from "../constants/index";
 import { ourTeam } from "../constants/index";
+// import '../index.css'
 // console.log(imageData);
 const AboutPage = () => {
   // console.log(data);
@@ -31,7 +32,7 @@ const AboutPage = () => {
             Strategists, Content Writers, and Project Managers, we collaborate on a result-oriented design process."
             heading="Empowering the world to design"
           />
-          <div className="flex flex-wrap justify-evenly items-center">
+          <div className="flex flex-wrap justify-evenly items-center ">
             {imageData.map((data) => (
               <AboutCard data={data} key={data?.id} />
             ))}

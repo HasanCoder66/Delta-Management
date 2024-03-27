@@ -204,3 +204,45 @@ function Contact() {
 }
 
 export default Contact;
+
+
+
+// const url = 'https://api.sendinblue.com/v3/smtp/email';
+//            const apiKey = process.env.REACT_APP_API_KEY;
+
+//         const data = {
+//             sender: {
+//                 name: 'Delta Solution',
+//                 email: 'info@deltasolution.pk'
+//             },
+//             to: [
+//                 {
+//                     email: email,
+//                     // name: name
+//                 }
+//             ],
+//             subject: 'OTP for Registration(Delta Solution) - ' + name + '',
+//             htmlContent: '<p><p>Greetings ' + name + '!<br><br>To continue with your registration, here is your OTP to be entered:<br><br><span style="font-size: 14pt;"><strong>' + myOtp + '</strong></span><br><br>Kindly do not share your OTP with anyone else and once you are done with registration, please delete your OTP!<br><br>Team Delta thanks for your trust on us and would love to see you action. In order to open a world of opportunities, you can continue registration.<br><br>Regards,<br>Delta Solution</p></p>'
+//         };
+
+//         const headers = {
+//             'Content-Type': 'application/json',
+//             'api-key': apiKey
+//         };
+
+//         const ali = await axios.post(url, data, { headers })
+//             .then(response => {
+
+//                 setbtn(true);
+//                 setformmmmmmm(false)
+//                 message.success("OTP has been sent to " + email)
+//                 console.log(response)
+//             }
+
+//             )
+//             .catch(error => {
+//                 message.error("Error sending OTP to " + email, setTimeout(hide, 1))
+//                 setbtn(true);
+//                 console.log(error)
+//             }
+//             );
