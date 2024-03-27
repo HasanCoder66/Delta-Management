@@ -13,6 +13,7 @@ import {
 } from "../components";
 
 import styles from "../style.js";
+// import { serviceCardData } from "../constants";
 const HomePage = () => {
   return (
     <div className="bg-primary w-full overflow-hidden">
@@ -33,7 +34,9 @@ const HomePage = () => {
           <Stats />
           <Business />
           <Billing />
-          <ServicesCarousel />
+          {/* {serviceCardData.map((data) => ( */}
+         {/* ))} data={data} key={data?.id}*/}
+            <ServicesCarousel  />
           <CardDeal />
           <Testimonials />
           <CTA />

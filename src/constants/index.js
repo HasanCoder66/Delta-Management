@@ -1,50 +1,109 @@
-import { people01, people02, people03, facebook, instagram, linkedin, twitter, airbnb, binance, coinbase, dropbox, send, shield, star  } from "../assets";
+import {
+  people01,
+  people02,
+  people03,
+  facebook,
+  instagram,
+  linkedin,
+  twitter,
+  airbnb,
+  binance,
+  coinbase,
+  dropbox,
+  send,
+  shield,
+  star,
+} from "../assets";
+
+// export const serviceCardData = [
+//   {
+//     id: '0',
+//     imgUrl : 'https://deltabusiness.io/Services/AI%20&%20Automation.jpg',
+//     heading : 'AI & Automation',
+//     desc : 'Experience streamlined operations and heightened productivity with our cutting-edge AI and automation solutions. From optimizing supply chains to enhancing customer service, we specialize in tailoring innovations to suit your business needs. Let us propel your business forward in the digital age.',
+//     btnContent : 'Explore More'
+//   },
+//   {
+//     id: '1',
+//     imgUrl : 'https://deltabusiness.io/Services/Artboard%202%20copy%202-100.jpg',
+//     heading : 'Artboard',
+//     desc : "Elevate your visual communication with our professional artboard design services. At Delta Business Solution, we specialize in creating stunning and impactful artboards tailored to your specific needs. Whether you're designing presentations, marketing materials, or prototypes, our expert team ensures top-notch quality and attention to detail. Let us bring your ideas to life with creativity and precision.",
+//     btnContent : 'Explore More'
+//   },
+//   {
+//     id: '2',
+//     imgUrl : 'https://deltabusiness.io/Services/Business%20Planning.jpg',
+//     heading : 'Business Planning',
+//     desc : 'Crafting a roadmap for success is effortless with our tailored business planning services. Let us guide you towards your goals with precision and efficiency.',
+//     btnContent : 'Explore More'
+//   },
+// ]
+
 
 export const ourTeam = [
-  {id : '0',
-  imgUrl : 'https://docs.material-tailwind.com/img/team-3.jpg',
-    position : 'CEO / Co-Founder',
-    name : 'Natalie Paisley'
+  {
+    id: "0",
+    imgUrl: "https://docs.material-tailwind.com/img/team-3.jpg",
+    position: "CEO / Co-Founder",
+    name: "Natalie Paisley",
   },
-  {id : '1',
-  imgUrl : 'https://docs.material-tailwind.com/img/team-3.jpg',
-    position : 'CEO / Co-Founder',
-    name : 'Natalie Paisley'
+  {
+    id: "1",
+    imgUrl: "https://docs.material-tailwind.com/img/team-3.jpg",
+    position: "CEO / Co-Founder",
+    name: "Natalie Paisley",
   },
-  {id : '2',
-  imgUrl : 'https://docs.material-tailwind.com/img/team-3.jpg',
-    position : 'CEO / Co-Founder',
-    name : 'Natalie Paisley'
+  {
+    id: "2",
+    imgUrl: "https://docs.material-tailwind.com/img/team-3.jpg",
+    position: "CEO / Co-Founder",
+    name: "Natalie Paisley",
   },
-]
+];
 
 export const imageData = [
-  {img: 'https://block.codescandy.com/assets/images/about-img/about-img-3.jpg', id: '1'},
-  {img: 'https://block.codescandy.com/assets/images/about-img/about-img-1.jpg', id: '0'},
-  {img: 'https://block.codescandy.com/assets/images/about-img/about-img-2.jpg', id: '2'},
-]
+  {
+    img: "https://block.codescandy.com/assets/images/about-img/about-img-3.jpg",
+    id: "1",
+  },
+  {
+    img: "https://block.codescandy.com/assets/images/about-img/about-img-1.jpg",
+    id: "0",
+  },
+  {
+    img: "https://block.codescandy.com/assets/images/about-img/about-img-2.jpg",
+    id: "2",
+  },
+];
 export const data = [
-  {id : '0',
-  imgUrl : 'https://media.licdn.com/dms/image/D5612AQEf6LeF26E1kg/article-cover_image-shrink_720_1280/0/1680614368660?e=2147483647&v=beta&t=mOHzEoTLfHAWBO_u7RUEGMPKbha42W7iwKV-KQoHhlA',
-    heading : 'Innovative Solutions for Business Success',
-    content : "At Delta Business Solution, innovation is at the core of everything we do. We specialize in developing cutting-edge solutions that propel businesses forward in today's fast-paced world. Whether it's leveraging AI and automation or implementing the latest technology trends, our innovative approach ensures that our clients stay ahead of the curve and achieve their goals with confidence.",
-    btnContent : 'Explore More'
+  {
+    id: "0",
+    imgUrl:
+      "https://media.licdn.com/dms/image/D5612AQEf6LeF26E1kg/article-cover_image-shrink_720_1280/0/1680614368660?e=2147483647&v=beta&t=mOHzEoTLfHAWBO_u7RUEGMPKbha42W7iwKV-KQoHhlA",
+    heading: "Innovative Solutions for Business Success",
+    content:
+      "At Delta Business Solution, innovation is at the core of everything we do. We specialize in developing cutting-edge solutions that propel businesses forward in today's fast-paced world. Whether it's leveraging AI and automation or implementing the latest technology trends, our innovative approach ensures that our clients stay ahead of the curve and achieve their goals with confidence.",
+    btnContent: "Explore More",
   },
   {
-    id : '1',
-    imgUrl : 'https://block.codescandy.com/assets/images/about-img/about-value-img-2.jpg',
-    heading : 'Trusted Partnerships Built on Integrity',
-    content : "Integrity forms the foundation of our relationships with clients. At Delta Business Solution, we prioritize honesty, transparency, and ethical practices in all our dealings. Our clients trust us to deliver results because we are committed to upholding the highest standards of integrity in every aspect of our work. With Delta Business Solution as your partner, you can rest assured that your business's best interests are always our top priority.",
-    btnContent : 'Explore More'
+    id: "1",
+    imgUrl:
+      "https://block.codescandy.com/assets/images/about-img/about-value-img-2.jpg",
+    heading: "Trusted Partnerships Built on Integrity",
+    content:
+      "Integrity forms the foundation of our relationships with clients. At Delta Business Solution, we prioritize honesty, transparency, and ethical practices in all our dealings. Our clients trust us to deliver results because we are committed to upholding the highest standards of integrity in every aspect of our work. With Delta Business Solution as your partner, you can rest assured that your business's best interests are always our top priority.",
+    btnContent: "Explore More",
   },
   {
-    id : '2',
-    imgUrl : 'https://www.dprgroup.com/wp-content/uploads/2023/11/expertise-card-software-and-technology.jpg',
-    heading : 'Expertise Across Diverse Industries',
-    content : "With a wealth of experience and expertise across various industries, Delta Business Solution brings a unique perspective to every client engagement. Our team comprises professionals with deep domain knowledge, allowing us to understand the specific challenges and opportunities facing different sectors. Whether you're in healthcare, finance, retail, or any other industry, we have the knowledge and skills to tailor solutions that meet your unique needs and drive success.",
-    btnContent : 'Explore More'
+    id: "2",
+    imgUrl:
+      "https://www.dprgroup.com/wp-content/uploads/2023/11/expertise-card-software-and-technology.jpg",
+    heading: "Expertise Across Diverse Industries",
+    content:
+      "With a wealth of experience and expertise across various industries, Delta Business Solution brings a unique perspective to every client engagement. Our team comprises professionals with deep domain knowledge, allowing us to understand the specific challenges and opportunities facing different sectors. Whether you're in healthcare, finance, retail, or any other industry, we have the knowledge and skills to tailor solutions that meet your unique needs and drive success.",
+    btnContent: "Explore More",
   },
-]
+];
 
 export const navLinks = [
   {
@@ -179,10 +238,9 @@ export const footerLinks = [
         name: "Careers",
         link: "https://www.hoobank.com/suggestions/",
       },
-      
     ],
   },
-  
+
   {
     title: "Headquarters",
     links: [

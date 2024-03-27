@@ -13,7 +13,7 @@ import ContactHead from "./ContactHead";
 import AboutCard from "./AboutCard";
 import ServicesCarousel from "./ServicesCarousel";
 import OurTeam from "./OurTeam";
-
+import Button from './Button'
 export {
   Navbar,
   Billing,
@@ -30,5 +30,6 @@ export {
   Contact,
   ContactHead,
   Hero,
+  Button
 };
 
