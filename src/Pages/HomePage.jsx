@@ -34,8 +34,6 @@ const HomePage = () => {
           <Stats />
           <Business />
           <Billing />
-          {/* {serviceCardData.map((data) => ( */}
-         {/* ))} data={data} key={data?.id}*/}
             <ServicesCarousel  />
           <CardDeal />
           <Testimonials />

@@ -49,6 +49,7 @@ function Contact() {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-[20px]">
               <div className="p-6 mr-2 bg-primary sm:rounded-lg ">
                 <div>
+                
                   <h1
                     className={`${styles.heading3} text-3xl sm:text-4xl  font-extrabold tracking-tight`}
                   >

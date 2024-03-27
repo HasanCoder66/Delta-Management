@@ -38,10 +38,11 @@ export default function ServicesCarousel() {
   };
   return (
     // w-3/4
-    <div className=" m-auto ">
+    <div className=" m-auto " id='services'>
       <div className="mt-20">
-        <Slider {...settings} className="">
-          <div className="w-[100%]">
+        <Slider {...settings} className=" rounded-[20px] box-shadow">
+          <div className="w-[100%] mb-[2rem]">
+      {/* <div className="absolute z-[0] w-[60%] h-[60%] -right-[50%] rounded-full blue__gradient bottom-40" /> */}
             <img
               src="https://deltabusiness.io/Services/AI%20&%20Automation.jpg"
               alt="AI & Automation"

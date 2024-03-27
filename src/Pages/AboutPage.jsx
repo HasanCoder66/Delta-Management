@@ -27,6 +27,8 @@ const AboutPage = () => {
           // ${styles.flexCenter}`
           className={`bg-primary text-white mt-[5rem] mb-[2rem] ${styles.paddingX} `}
         >
+          <div className="absolute z-[3] -left-1/2 top-0 w-[50%] h-[50%] rounded-full white__gradient" />
+          <div className="absolute z-[0] w-[50%] h-[50%] -left-1/2 bottom-0 rounded-full pink__gradient" />
           <ContactHead
             text="We are Block, a Digital Product Design & Branding Agency. As a team of Designers, Business Analysts,
             Strategists, Content Writers, and Project Managers, we collaborate on a result-oriented design process."

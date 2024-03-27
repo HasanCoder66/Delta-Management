@@ -2,7 +2,7 @@ import { apple, bill, google } from "../assets";
 import styles, { layout } from "../style";
 
 const Billing = () => (
-  <section id="services" className={layout.sectionReverse}>
+  <section  className={layout.sectionReverse}>
     <div className={layout.sectionImgReverse}>
       <img src='https://res.cloudinary.com/dpvxkqhi8/image/upload/v1711469964/branding%20hopes/bill2_sy3rjy.png' alt="billing" className="w-[100%] h-[100%] relative z-[5]" />
 
