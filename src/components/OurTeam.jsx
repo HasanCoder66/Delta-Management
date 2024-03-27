@@ -6,6 +6,7 @@ import {
     Typography,
     Tooltip,
   } from "@material-tailwind/react";
+import styles from "../style";
    
   export default function OurTeam() {
     return (
@@ -14,10 +15,10 @@ import {
           <img src="https://docs.material-tailwind.com/img/team-3.jpg" alt="profile-picture" />
         </CardHeader>
         <CardBody className="text-center">
-          <Typography variant="h4" color="blue-gray" className="mb-2">
+          <Typography variant="h4" color="blue-gray" className={`${styles.paragraph} mb-2 `}>
             Natalie Paisley
           </Typography>
-          <Typography color="blue-gray" className="font-medium" textGradient>
+          <Typography color="blue-gray"  className={`${styles.paragraph} mb-2 `} textGradient>
             CEO / Co-Founder
           </Typography>
         </CardBody>

@@ -14,7 +14,13 @@ function Contact() {
 
   const sendEmail = (e) => {
     e.preventDefault();
-    if (email === "" || number === "" || name === "" || message === "" || company === "") {
+    if (
+      email === "" ||
+      number === "" ||
+      name === "" ||
+      message === "" ||
+      company === ""
+    ) {
       return toast.error("Missings Fields");
     } else {
       console.log("send");
@@ -43,28 +49,34 @@ function Contact() {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-[20px]">
               <div className="p-6 mr-2 bg-primary sm:rounded-lg ">
                 <div>
-                  <h1 className="text-3xl sm:text-4xl  font-extrabold tracking-tight">
+                  <h1
+                    className={`${styles.heading3} text-3xl sm:text-4xl  font-extrabold tracking-tight`}
+                  >
                     Technical Support
                   </h1>
-                  <p className="text-normal text-lg sm:text-xl font-medium  text-slate-500  mt-2 mb-6  ">
+                  <p className={`${styles.paragraph}  mt-2 mb-6 `}>
                     Found a persistent bug, or need help setting a new team
                     member up? Can’t crack a feature? Let us know!
                   </p>
                 </div>
                 <div>
-                  <h1 className="text-3xl sm:text-4xl  font-extrabold tracking-tight">
+                  <h1
+                    className={`${styles.heading3} text-3xl sm:text-4xl  font-extrabold tracking-tight`}
+                  >
                     General chat
                   </h1>
-                  <p className="text-normal text-lg sm:text-xl font-medium  text-slate-500  mt-2 mb-6 ">
+                  <p className={`${styles.paragraph}  mt-2 mb-6 `}>
                     Billing issues, customizations, plan changes--anything that
                     doesn’t fit in the other two brackets, goes here. Start Chat
                   </p>
                 </div>
                 <div>
-                  <h1 className="text-3xl sm:text-4xl  font-extrabold tracking-tight">
+                  <h1
+                    className={`${styles.heading3} text-3xl sm:text-4xl  font-extrabold tracking-tight`}
+                  >
                     Help Center
                   </h1>
-                  <p className="text-normal  font-medium text-slate-500  mt-2 mb-6">
+                  <p className={`${styles.paragraph}  mt-2 mb-6 `}>
                     Want to share feedback on an existing feature or suggest a
                     new one? Talk to us! Visit Help Center
                   </p>
