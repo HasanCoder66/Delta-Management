@@ -84,13 +84,13 @@ function Contact() {
               </div>
 
               <form
-                className=" flex flex-col justify-center color rounded-lg p-[0.75rem] "
+                className=" flex flex-col justify-center color rounded-lg p-[0.75rem] box-shadow"
                 ref={form}
                 onSubmit={sendEmail}
               >
                 <div className="w-full flex gap-8">
                   <div className="flex flex-col w-[47%] ">
-                    <label for="name" className="text-slate-500 font-bold">
+                    <label for="name" className={`${styles.paragraph}`}>
                       Full Name *
                     </label>
                     <input
@@ -103,7 +103,7 @@ function Contact() {
                     />
                   </div>
                   <div className="flex flex-col w-[45%]">
-                    <label for="name" className="text-slate-500 font-bold">
+                    <label for="name" className={`${styles.paragraph} `}>
                       Last Name *
                     </label>
                     <input
@@ -118,7 +118,7 @@ function Contact() {
                 </div>
 
                 <div className="flex flex-col mt-2">
-                  <label for="email" className="text-slate-500 font-bold">
+                  <label for="email"  className={`${styles.paragraph} `}>
                     Email *
                   </label>
                   <input
@@ -129,9 +129,9 @@ function Contact() {
                     className="w-100 mt-2 py-3 px-3 rounded-lg   text-gray-800 font-semibold  colorInput "
                     onChange={(e) => setEmail(e.target.value)}
                   />
-                </div>
+                </div> 
                 <div className="flex flex-col mt-2">
-                  <label for="email" className="text-slate-500 font-bold">
+                  <label for="email"  className={`${styles.paragraph} `}>
                     Company Name *
                   </label>
                   <input
@@ -145,7 +145,7 @@ function Contact() {
                 </div>
 
                 <div className="flex flex-col mt-2">
-                  <label for="tel" className="text-slate-500 font-bold">
+                  <label for="tel" className={`${styles.paragraph} `}>
                     Number *
                   </label>
                   <input
@@ -158,7 +158,7 @@ function Contact() {
                   />
                 </div>
                 <div className="flex flex-col mt-2">
-                  <label for="tel" className="text-slate-500 font-bold">
+                  <label for="tel"className={`${styles.paragraph} `}>
                     Enter Your Subject *
                   </label>
 
